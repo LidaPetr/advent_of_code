@@ -14,7 +14,7 @@ def d1_p1(numbers):
     return max_calories
 
 
-def d1(numbers,top):
+def d1(numbers, top):
     count = 0
     calories = []
     for number in numbers:
@@ -35,8 +35,8 @@ if __name__ == "__main__":
         data = f.readlines()
     numbers = [x.strip() for x in data]
 
-    print(d1(numbers,1))
-    print(d1(numbers,3))
+    print(d1(numbers, 1))
+    print(d1(numbers, 3))
 
     # Keep this line at the end of your code
     replit_end_time = time.perf_counter()
